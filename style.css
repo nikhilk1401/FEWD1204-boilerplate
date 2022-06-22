@@ -5,53 +5,56 @@
 * {
     margin: 0;
     padding: 0;
-    text-align: center; /* Iteration 2: Use appropriate property to align text to the center */
-    font-family: 'Poppins',sans-serif; /* Iteration 3: Use appropriate property to change font to 'Poppins' */
+    /* Iteration 2: Use appropriate property to align text to the center */
+    
+    /* Iteration 3: Use appropriate property to change font to 'Poppins' */
+    
 }
+
 .container-min {
     width: 100%;
     height: auto;
 }
+
 .two {
     width: 100%;
-    padding: 10px; /* Iteration 4: Use appropriate property to change padding to '10px' */
+    /* Iteration 4: Use appropriate property to change padding to '10px' */
+    
 }
+
 h1 {
     font-weight: 500;
     font-size: 40px;
 }
+
 h2 {
     font-weight: 500;
     font-size: 30px;
 }
+
 /* Iteration 5: Use selector 'h3' to change font weight to '600' , opacity of the 
    text to '0.6' and minimum space of '0.6px' between letters */
-h3 {
-    font-weight: 600;
-    opacity: .6;
-    letter-spacing: .6px; 
-}
+
+
 p {
     font-size: 18px;
     letter-spacing: .6px;
 }
+
 span {
     font-size: 25px;
     border-bottom: 3px solid red;
 }
+
 img {
     width: 80%;
     height: auto;
     margin: 25px 0;
-    border-radius: 10px; /* Iteration 6: Use appropriate property to change border radius to '10px' */
+    /* Iteration 6: Use appropriate property to change border radius to '10px' */
+    
 }
+
 /* Iteration 7: Use appropriate @rule which changes 'h1' font size to '30px' and images 
    width to '95%' when the screen size have a maximum width of '700px' */
-@media (max-width:700px) {
-    h1 {
-        font-size: 30px;
-    }
-    img {
-        width: 95%;
-    }
-}
+
+
